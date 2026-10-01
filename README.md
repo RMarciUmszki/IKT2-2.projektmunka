@@ -49,10 +49,6 @@ https://valami.hu
 
 [Katt ide](https://youtube.com/@RevMarci)
 
-## Képek Beszúrása
-
-![alt text](PICS/image.png)
-
 ## Táblázat
 (Ez már nem kell)
 
