@@ -15,34 +15,51 @@
 </head>
 
 <body>
-
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000000a4;">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #000000a1;">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="PICS/logo5.png" alt="Logo" width="328" height="104" class="d-inline-block align-text-top">
             </a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#">Útmutatók</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">Kapcsolat</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">Galéria</a>
+                    </li>
+                </ul>
+            </div>
+            <button class="playnowbutton">
+                Játssz most!
+            </button>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="p-3" href="#">Útmutatók</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="p-3" href="#">Kapcsolat</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="p-3" href="#">Galéria</a>
-                    </li>
-                </ul>
-                <button class="playnowbutton">
-                    Játssz most!
-                </button>
-            </div>
         </div>
     </nav>
+
+    <div class="content">
+        <div class="container-fluid" style="padding: 0px;">
+            <div id="carousel" class="carousel slide carousel-fade " data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="100">
+                    <img src="PICS/screenshot1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="100">
+                    <img src="PICS/screenshot2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="100">
+                    <img src="PICS/screenshot3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
     integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
