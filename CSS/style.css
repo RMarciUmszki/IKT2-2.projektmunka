@@ -52,3 +52,18 @@ nav ul li a:hover
     margin: auto;
     width: 100%;
 }
+.carousel-slide {
+    height: 950px;
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(60%);
+}
+.carousel-slide-1 {
+    background-image: url("../PICS/screenshot1.png");
+}
+.carousel-slide-2 {
+    background-image: url("../PICS/screenshot2.png");
+}
+.carousel-slide-3 {
+    background-image: url("../PICS/screenshot3.png");
+}
