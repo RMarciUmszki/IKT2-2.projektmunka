@@ -33,12 +33,10 @@ nav ul li a:hover
   border-radius: 7px;
   font-weight: 700;
   transition: 0.3s;
-}
-
-.playnowbutton {
   background: rgba(254, 0, 251);
   box-shadow: 0 0 25px rgba(254, 0, 251);
 }
+
 
 .playnowbutton:hover {
   box-shadow: 0 0 25px rgba(254, 0, 250, 0.8),
@@ -46,24 +44,51 @@ nav ul li a:hover
               0 0 40px rgba(254, 0, 251, 0.8),
               0 0 80px rgba(254, 0, 251, 0.8);
 }
-
-.carousel
+.texts
 {
+    position: absolute;
     margin: auto;
     width: 100%;
+    z-index: 2;
 }
-.carousel-slide {
+.logodiv
+{
+    padding-top: 300px;
+    text-align: center;
+    margin: auto;
+}
+.logodiv img
+{
+    filter: drop-shadow(5px 5px 10px black);
+}
+.registerbutton
+{
+    padding-top: 30px;
+    text-align: center;
+    margin: auto; 
+}
+.registerbutton button
+{
+    padding: 30px 200px;
+    border: none;
+    font-size: 40px;
+    color: #fff;
+    border-radius: 7px;
+    font-weight: 700;
+    transition: 0.3s;
+    background: rgba(254, 0, 251);
+    box-shadow: 0 0 25px rgba(254, 0, 251);
+}
+.carousel {
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+}
+
+.carousel-item img {
+    width: 100%;
     height: 950px;
-    background-position: center;
-    background-size: cover;
-    filter: grayscale(60%);
-}
-.carousel-slide-1 {
-    background-image: url("../PICS/screenshot1.png");
-}
-.carousel-slide-2 {
-    background-image: url("../PICS/screenshot2.png");
-}
-.carousel-slide-3 {
-    background-image: url("../PICS/screenshot3.png");
+    filter: grayscale(50%);
+    object-fit: cover;
+    object-position: center;
 }
