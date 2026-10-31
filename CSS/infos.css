@@ -1,0 +1,69 @@
+.description
+{
+    position: relative;
+    z-index: 6; 
+    color: white;
+    margin-bottom: 30px;
+}
+.description h1
+{
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+    filter: drop-shadow(5px 5px 10px black);
+}
+.description p
+{
+    text-align: justify;
+    font-size: 150%;
+    padding: 20px;
+    margin: 0px;
+}
+.featuresbackground
+{
+    background-color: rgb(18, 9, 26);
+    margin-bottom: 30px;
+}
+.features
+{
+    padding: 10px;
+}
+.features h1, .requirements h1
+{
+    color: white;
+    font-size: 400%;
+    text-align: center;
+}
+.features p
+{
+    color: white;
+    font-size: 170%;
+}
+.features .col
+{
+    padding: 15px;
+}
+.features img
+{
+    width: 80px;
+    margin: 10px;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(8%) saturate(0%) hue-rotate(340deg) brightness(104%) contrast(101%);
+}
+.requirements
+{
+    padding-bottom: 40px;
+}
+.requirements .table
+{
+    margin-bottom: 0px;
+    margin-top: 30px;
+    width: 100%;
+}
+.requirements .table th, td
+{
+    font-size: 130%;
+}
+#feature
+{
+    display: inline-block;
+}
