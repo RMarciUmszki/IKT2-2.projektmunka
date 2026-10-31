@@ -12,7 +12,7 @@ nav ul li a
 }
 nav ul li a:hover
 {
-    color: brown;
+    color: rgb(177, 26, 174);
 }
 .navbar
 {
@@ -20,7 +20,9 @@ nav ul li a:hover
 }
 main
 {
-    background-color: rgba(26, 13, 38);
+    background-color: rgb(26, 13, 38);
+    margin: 0px;
+    /* padding-bottom: 50px; */
 }
 
 .playnowbutton {
@@ -141,11 +143,7 @@ main
     height: 30px;
     filter: brightness(0) saturate(100%) invert(28%) sepia(9%) saturate(2050%) hue-rotate(260deg) brightness(92%) contrast(92%); /*https://angel-rs.github.io/css-color-filter-generator/*/
 }
-.cards
-{
-    height: 3000px;
-}
-.cards .col
+.cards .col, .videocards .col
 {
     padding: 20px;
 }
@@ -245,6 +243,36 @@ main
     margin-top: 10px;
 }
 
+.card2
+{
+    background-position: center;
+    background-size: cover;
+    width: 270px;
+    height: 270px;
+    border: 1px solid rgb(94, 29, 29);
+    margin: auto;
+    color: white;
+    padding: 10px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+.card2:hover
+{
+    border: 1px solid red;
+    transform: scale(1.04);
+}
+.card2 h4
+{
+    margin-top: 130px;
+    filter: drop-shadow(5px 5px 10px black);
+}
+.card2 h5
+{
+    text-align: right;
+    color: gray;
+    
+}
+
 #news6
 {
     background-image: url(../PICS/6news.png);
@@ -268,6 +296,72 @@ main
 #news1
 {
     background-image: url(../PICS/1news.png);
+}
+#video1
+{
+    background-image: url(../PICS/video1.png);
+}
+#video2
+{
+    background-image: url(../PICS/video2.png);
+}
+#video3
+{
+    background-image: url(../PICS/video3.png);
+}
+#video4
+{
+    background-image: url(../PICS/video4.png);
+}
+.videos
+{
+    background-color: rgb(18, 9, 26);
+    padding: 10px;
+    padding-bottom: 50px;
+}
+.footer-link img
+{
+    width: 45px;
+    transition: .1s ease;
+}
+.footer-link
+{
+    margin: 5px;
+}
+.footer-link img:hover
+{
+    transform: scale(110%);
+    box-shadow: rgba(255, 255, 255, 0.151) 0px 13px 47px -5px;
+}
+
+.earlyfooter {
+    font-style: normal;
+    background: rgb(145, 24, 143);
+    padding: 10px;
+}
+
+.earlyfooter p {
+    color: white;
+    margin: 0px;
+}
+
+footer {
+    background-color: #0D1113;
+    color: #546E7A;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0px;
+}
+
+footer a {
+    color: #546E7A;
+}
+footer img
+{
+    height: 30px;
+    filter: brightness(0) saturate(100%) invert(39%) sepia(42%) saturate(244%) hue-rotate(154deg) brightness(94%) contrast(90%);
 }
 
 
