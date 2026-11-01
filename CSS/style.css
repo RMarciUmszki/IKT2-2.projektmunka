@@ -227,20 +227,22 @@ main
     border: 1px solid rgb(254, 0, 251);
     transform: scale(1.04);
 }
-.card h4
+.card h2
 {
     margin-top: 210px;
     filter: drop-shadow(5px 5px 10px black);
+    font-size: 150%
 }
 .card p
 {
     margin: 0px;
 }
-.card h5
+.card h3
 {
     text-align: right;
     color: gray;
     margin-top: 10px;
+    font-size: 125%;
 }
 
 .card2
@@ -261,16 +263,17 @@ main
     border: 1px solid red;
     transform: scale(1.04);
 }
-.card2 h4
+.card2 h2
 {
-    margin-top: 130px;
+    margin-top: 135px;
     filter: drop-shadow(5px 5px 10px black);
+    font-size: 140%
 }
-.card2 h5
+.card2 h3
 {
     text-align: right;
     color: gray;
-    
+    font-size: 125%;
 }
 
 #news6
