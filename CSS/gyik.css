@@ -1,0 +1,32 @@
+.questions
+{
+    position: relative;
+    z-index: 6; 
+    color: white;
+    margin-bottom: 0px;
+    padding-bottom: 40px;
+    margin-top: 40px;
+}
+.questions h1
+{
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+    filter: drop-shadow(5px 5px 10px black);
+}
+.question img
+{
+    width: 80px;
+    margin: 10px;
+    filter: brightness(0) saturate(100%) invert(42%) sepia(23%) saturate(2448%) hue-rotate(216deg) brightness(85%) contrast(87%);
+}
+.question
+{
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+}
+.question h2
+{
+    color: slateblue;
+}
