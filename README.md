@@ -1,6 +1,6 @@
 # Coconut Simulator!
 
- Ez a [Coconut Simulator](https://store.steampowered.com/app/3335120/Coconut_Simulator) nevű steamen játszható, reális kókuszdió szimulátor játék hivatalos magyar nyelvű weboldalának a forrás kódja. Dynamic Games©
+Ez a [Coconut Simulator](https://store.steampowered.com/app/3335120/Coconut_Simulator) nevű steamen játszható, reális kókuszdió szimulátor játék hivatalos magyar nyelvű weboldalának a forrás kódja. Dynamic Games©
 
 A Dynamic Games© a mi cégünket bízta meg azzal, hogy csináljuk meg a leghíresebb játékuk weboldalát azért, hogy több ember ismerhesse meg a mesterművüket.
 
