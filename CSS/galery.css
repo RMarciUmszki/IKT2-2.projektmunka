@@ -1,0 +1,35 @@
+.pictures
+{
+    /* position: relative;
+    z-index: 6;  */
+    color: white;
+    margin-bottom: 0px;
+    padding-bottom: 40px;
+    padding-top: 160px;
+    /* margin-top: 40px; */
+}
+.pictures h1
+{
+    text-align: left;
+    padding: 0px;
+    margin: 20px 0px;
+    filter: drop-shadow(5px 5px 10px black);
+}
+.pictures .col
+{
+    padding: 10px;
+}
+.pictures img
+{
+    display: block;
+    width: 300px;
+    border: 1px solid rgb(79, 49, 107);
+    margin: auto;
+    color: white;
+    transition: 0.2s;
+}
+.pictures img:hover
+{
+    border: 1px solid rgb(254, 0, 251);
+    transform: scale(1.04);
+}

@@ -1,11 +1,12 @@
 .questions
 {
-    position: relative;
-    z-index: 6; 
+    /* position: relative;
+    z-index: 6;  */
     color: white;
     margin-bottom: 0px;
     padding-bottom: 40px;
-    margin-top: 40px;
+    padding-top: 180px;
+    /* margin-top: 40px; */
 }
 .questions h1
 {
