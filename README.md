@@ -4,14 +4,19 @@
 
 A Dynamic Games© a mi cégünket bízta meg azzal, hogy csináljuk meg a leghíresebb játékuk weboldalát azért, hogy több ember ismerhesse meg a mesterművüket.
 
-Referencia oldal: https://warthunder.com/en
+Konkurencia: https://warthunder.com/en
+
 
 ## Szerkezet
 
+### Egy főoldal és 3 aloldal:
+1. Játékról
+1. GYIK
 1. Galéria
-1. Kapcsolat
-1. Útmutatók
 
+Forrásoldalak: 
+1. https://store.steampowered.com/app/3335120/Coconut_Simulator
+1. https://youtube.com
 ## A játékról
 
 A **Coconut Simulator** egy olyan játék, amelyben kókuszdióvá válhatsz.
@@ -33,13 +38,13 @@ Ez a játék meditatív játékmenetet kínál. Megállhatsz, és szemlélheted 
 
 ## Rendszerkövetelmények
 
-### Minimum:
-
-* **Op. rendszer:** Windows 10
-* **Processzor:** i3
-* **Memória:** 4 GB RAM
-* **Grafika:** GTX 560
-* **Tárhely:** 1 GB szabad hely
+|                       | Minimum követelmények | Ajánlott követelmények |
+|-----------------------|-----------------------|------------------------|
+| Op. rendszer:         | Windows 10 (64 bit)   | Windows 10/11 (64 bit) |
+| Processzor:           | Intel Core i3         | Intel Core i5 vagy Ryzen 5 3600 vagy jobb |
+| Memória:              | 4 GB RAM              | 8 GB RAM vagy több     |
+| Videokártya:          | NVIDIA GeForce GTX 560 | NVIDIA GeForce GTX 1060 |
+| Tárhely:              | 1 GB szabad hely      | 1 GB szabad hely       |
 
 
 ![Game Logo](PICS/logo.jpg)
